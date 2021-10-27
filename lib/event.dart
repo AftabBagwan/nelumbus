@@ -31,24 +31,31 @@ class EventFeed extends StatelessWidget {
             ),
           ),
           body: Column(
-            children:<Widget> [
+            children: <Widget>[
               Card(
                 child: Container(
                   height: 300,
-                  
-                  child: Column(children: <Widget>[
-                    ListTile(leading:CircleAvatar(),
-                    title: Text("PM Narendra Modi"),
-                    subtitle: Text("Sun Nov 01 2020 07.00.00"),
-                    ),
-                    Expanded(child: Container(color: Colors.blue,)),
-                    Row(children:<Widget> [
-                      Row(children: <Widget>[
-                        
-                      ],)
-                    ],)
-                  ],),
-            ),
+                  child: Column(
+                    children: <Widget>[
+                      ListTile(
+                        leading: CircleAvatar(),
+                        title: Text("PM Narendra Damodardas Modi"),
+                        subtitle: Text("Sun Nov 01 2020 07.00.00"),
+                      ),
+                      Expanded(
+                          child: Container(
+                        color: Colors.blue,
+                      )),
+                      Row(
+                        children: <Widget>[
+                          Row(
+                            children: <Widget>[],
+                          )
+                        ],
+                      )
+                    ],
+                  ),
+                ),
               )
             ],
           ),

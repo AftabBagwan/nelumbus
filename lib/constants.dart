@@ -6,7 +6,7 @@ const kTextfieldDecoration = InputDecoration(
   ),
   filled: true,
   fillColor: Colors.white,
-  hintText: 'Name',
+  hintText: 'Enter your Name',
   border: OutlineInputBorder(
     borderRadius: BorderRadius.all(
       Radius.circular(15.0),

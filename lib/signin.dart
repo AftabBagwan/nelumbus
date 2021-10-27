@@ -4,7 +4,6 @@ import 'round_button.dart';
 import 'package:dropdownfield/dropdownfield.dart';
 import 'package:nelumbus_tech/event.dart';
 import 'signup.dart';
-import 'package:firebase_auth/firebase_auth.dart';
 
 class SignIn extends StatefulWidget {
   static const String id = 'signin';
@@ -14,20 +13,9 @@ class SignIn extends StatefulWidget {
 }
 
 class _SignInState extends State<SignIn> {
-  // final _auth = FirebaseAuth.instance;
-  // String username;
-  // String password;
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-////      backgroundColor: Color(0xff005e54),
-//      appBar: AppBar(
-////        backgroundColor: Color(0xff005e54),
-//        title: Text(
-//          'SignIn',
-//        ),
-//      ),
       body: ListView(children: <Widget>[
         Container(
           child: Image(

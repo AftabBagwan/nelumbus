@@ -11,22 +11,9 @@ class SignUp extends StatefulWidget {
 }
 
 class _SignUpState extends State<SignUp> {
-  // final _auth = FirebaseAuth.instance;
-  // String name;
-  // String username;
-  // String password;
-  // String cpassword;
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-//      backgroundColor: Color(0xff005e54),
-//      appBar: AppBar(
-////        backgroundColor: Color(0xff005e54),
-////        title: Text(
-////          'SignUp',
-////        ),
-//          ),
       body: ListView(children: <Widget>[
         Column(
           crossAxisAlignment: CrossAxisAlignment.start,
